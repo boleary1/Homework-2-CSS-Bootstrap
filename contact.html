@@ -27,7 +27,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="Contact.html">Contact <span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link" href="Portfolio.html">Portfolio</a>
@@ -49,49 +49,110 @@
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-3">
-        <img class="img img-thumbnail" src="http://placehold.it/200x200">
-      </div>
-      <div class="col-lg-9">
-        <h2>The Greatest Website Ever Made</h2>
-        <p>
-          
-          
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="First name" aria-label="Search">
-            <input class="form-control mr-sm-2" type="search" placeholder="Last name" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-          
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam accusamus nemo fugiat debitis voluptates ratione omnis, nobis.</p>
-      </div>
-    </div>
     <br>
+<!----------------------------------------------- https://mdbootstrap.com/docs/jquery/forms/contact/ --------------------------------------------------------------------------------------->
+<!-----------------------------------------------  taken from boostrap source above--------------------------------------------------------------------------------------->
+<!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me!</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly. I'll get back to you as soon as possible.</p>
+
     <div class="row">
-      <div class="col-lg-3">
-        <img class="img img-thumbnail" src="http://placehold.it/200x200">
-      </div>
-      <div class="col-lg-9">
-        <h2>The Greatest Website Ever Made</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, nemo vitae! Nostrum quisquam quod autem amet distinctio tenetur dolore sequi veniam, vero nobis impedit nemo dolor ex dolorum quo minus.</p>
-      </div>
-    </div>
-    <br>
-    <div class="row">
-      <div class="col-lg-12">
-        <!-- The content in this div gets wrapped in a card -->
-        <div class="card">
-          <div class="card-body">
-            <div class="text-center">
-              <img class="" src="http://placehold.it/50x50" alt="">
-              <img class="" src="http://placehold.it/50x50" alt="">
-              <img class="" src="http://placehold.it/50x50" alt="">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
             </div>
-          </div>
+            <div class="status"></div>
         </div>
-      </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="Linked in"></i>
+                    <p><a href="https://www.linkedin.com/in/brianfolanoleary/">Linked In</a></p>
+                </li>
+
+                <li><i class="Phone"></i>
+                    <p> (781)812-5628 </p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>oleary.brian1@gmai.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
     </div>
+
+</section>
+<!--Section: Contact v.2-->
+<!-----------------------------------------------  --------------------------------------------------------------------------------------->
+
+
+
+    <br>
+
   </div>
 
   <!-- Here we bring in some scripts required to allow some Bootstrap components to work.
