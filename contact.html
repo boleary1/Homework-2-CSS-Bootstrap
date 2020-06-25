@@ -1,3 +1,4 @@
+
 <!-- Demo Layout for Bootstrap (with cards) -->
 <!DOCTYPE html>
 <html lang="en-us">
@@ -9,169 +10,173 @@
   devices. -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Brian O'Leary | Contact</title>
+  <title>Brian O'Leary | About</title>
 
   <!-- We need to bring in the bootstrap CSS -->
-  <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-    crossorigin="anonymous"
-  />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
 </head>
+<!----------------------------------------nav bar ------------------------------------------------------------------->
 
-<body>
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Brian O'Leary</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="Contact.html">Contact <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="Portfolio.html">Portfolio</a>
-        <a class="nav-item nav-link" href="index.html">About</a>
-      </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Brian O'Leary</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="Contact.html">Contact <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="Portfolio.html">Portfolio</a>
+      <a class="nav-item nav-link" href="index2.html">About</a>
     </div>
-  </nav>
+  </div>
+</nav>
+<!----------------------------------------Body ------------------------------------------------------------------->
 
 
-  <!-- Main Body goes in Container -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-      <!-- The content in this div gets wrapped in a card -->
-        <div class="card">
-          <div class="card-body">
-            Contact
+<main>
+    <!-- Main Body goes in Container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+        <!-- The content in this div gets wrapped in a card -->
+          <div class="card">
+            <div class="card-body">
+              Contact
+            </div>
           </div>
         </div>
       </div>
+      <br>
+  <!----------------------------------------------- https://mdbootstrap.com/docs/jquery/forms/contact/ --------------------------------------------------------------------------------------->
+  <!-----------------------------------------------  taken from boostrap source above--------------------------------------------------------------------------------------->
+  <!--Section: Contact v.2-->
+  <section class="mb-4">
+  
+      <!--Section heading-->
+      <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me!</h2>
+      <!--Section description-->
+      <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly. I'll get back to you as soon as possible.</p>
+  
+      <div class="row">
+  
+          <!--Grid column-->
+          <div class="col-md-9 mb-md-0 mb-5">
+              <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+  
+                  <!--Grid row-->
+                  <div class="row">
+  
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                          <div class="md-form mb-0">
+                              <input type="text" id="name" name="name" class="form-control">
+                              <label for="name" class="">Your name</label>
+                          </div>
+                      </div>
+                      <!--Grid column-->
+  
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                          <div class="md-form mb-0">
+                              <input type="text" id="email" name="email" class="form-control">
+                              <label for="email" class="">Your email</label>
+                          </div>
+                      </div>
+                      <!--Grid column-->
+  
+                  </div>
+                  <!--Grid row-->
+  
+                  <!--Grid row-->
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="md-form mb-0">
+                              <input type="text" id="subject" name="subject" class="form-control">
+                              <label for="subject" class="">Subject</label>
+                          </div>
+                      </div>
+                  </div>
+                  <!--Grid row-->
+  
+                  <!--Grid row-->
+                  <div class="row">
+  
+                      <!--Grid column-->
+                      <div class="col-md-12">
+  
+                          <div class="md-form">
+                              <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                              <label for="message">Your message</label>
+                          </div>
+  
+                      </div>
+                  </div>
+                  <!--Grid row-->
+  
+              </form>
+  
+              <div class="text-center text-md-left">
+                  <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+              </div>
+              <div class="status"></div>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-md-3 text-center">
+              <ul class="list-unstyled mb-0">
+                  <li><i class="Linked in"></i>
+                      <p><a href="https://www.linkedin.com/in/brianfolanoleary/">Linked In</a></p>
+                  </li>
+  
+                  <li><i class="Phone"></i>
+                      <p> (781)812-5628 </p>
+                  </li>
+  
+                  <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                      <p>oleary.brian1@gmai.com</p>
+                  </li>
+              </ul>
+          </div>
+          <!--Grid column-->
+  
+      </div>
+  
+  </section>
+  <!--Section: Contact v.2-->
+  <!-----------------------------------------------  --------------------------------------------------------------------------------------->
+  
+  
+  
+      <br>
+  
     </div>
-    <br>
-<!----------------------------------------------- https://mdbootstrap.com/docs/jquery/forms/contact/ --------------------------------------------------------------------------------------->
-<!-----------------------------------------------  taken from boostrap source above--------------------------------------------------------------------------------------->
-<!--Section: Contact v.2-->
-<section class="mb-4">
-
-    <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me!</h2>
-    <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly. I'll get back to you as soon as possible.</p>
-
-    <div class="row">
-
-        <!--Grid column-->
-        <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Your name</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Your email</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class="">Subject</label>
-                        </div>
-                    </div>
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-12">
-
-                        <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Your message</label>
-                        </div>
-
-                    </div>
-                </div>
-                <!--Grid row-->
-
-            </form>
-
-            <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-            </div>
-            <div class="status"></div>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-md-3 text-center">
-            <ul class="list-unstyled mb-0">
-                <li><i class="Linked in"></i>
-                    <p><a href="https://www.linkedin.com/in/brianfolanoleary/">Linked In</a></p>
-                </li>
-
-                <li><i class="Phone"></i>
-                    <p> (781)812-5628 </p>
-                </li>
-
-                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                    <p>oleary.brian1@gmai.com</p>
-                </li>
-            </ul>
-        </div>
-        <!--Grid column-->
-
-    </div>
-
-</section>
-<!--Section: Contact v.2-->
-<!-----------------------------------------------  --------------------------------------------------------------------------------------->
+  
+</main>
 
 
-
-    <br>
-
+<!----------------------------------------https://mdbootstrap.com/docs/jquery/navigation/footer/  ------------------------------------------------------------------->
+<!----------------------------------------footer found here^ ------------------------------------------------------------------->
+<!-- Footer -->
+<!-- Copyright -->
+<footer class="page-footer font-small blue, fixed-bottom , text-white bg-dark , border-top border-success">
+  <div class="footer-copyright text-center py-3"> © 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
   </div>
+</footer>
 
-  <!-- Here we bring in some scripts required to allow some Bootstrap components to work.
+
+<!----------------------------------------Bootstrap tools ------------------------------------------------------------------->
+<!-- Here we bring in some scripts required to allow some Bootstrap components to work.
     For now, this is code to copy and paste. We'll get to script elements soon enough. -->
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"
-  ></script>
-</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </html>
