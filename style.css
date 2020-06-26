@@ -11,6 +11,9 @@
   border: solid 1px black;
 }
 
-.card{
-  margin: 10px;
+/* CSS for cards in portfolio */
+.potrfoliobox { 
+  flex-flow: column wrap;
+  justify-content: center;
 }
+
