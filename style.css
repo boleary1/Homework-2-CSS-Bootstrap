@@ -1,8 +1,8 @@
-.profilepic {
-    position: relative;
-    height: 1000px;
-    background: darkgray;
-  }
+
   main {
     margin-bottom: 90px;
   }
+
+.bio-image{
+  height: 350px
+}
