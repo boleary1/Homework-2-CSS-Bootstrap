@@ -6,3 +6,11 @@
 .bio-image{
   height: 350px
 }
+.portfolioheader{
+  padding: 15;
+  border: solid 1px black;
+}
+
+.card{
+  margin: 10px;
+}
