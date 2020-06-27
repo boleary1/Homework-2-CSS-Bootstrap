@@ -1,14 +1,16 @@
-
-  main {
+/* added this class to be able to see the content under the footer */
+main {
     margin-bottom: 90px;
   }
-
+/* Adjust the size of the image in the bio */
 .bio-image{
   height: 350px
 }
-.portfolioheader{
+.page-title{
+  text-align: center;
+  text-decoration: underline;
   padding: 15;
-  border: solid 1px black;
+  /* border: solid 1px black; */
 }
 
 /* CSS for cards in portfolio */
@@ -33,10 +35,10 @@
   top: 66%;
   width: 100%;
   text-align: center;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
   color: black;
-  background-color: rebeccapurple; 
+  background-color: rgb(74, 88, 104); 
   opacity: 0.8;
 
 }
