@@ -1,3 +1,4 @@
+
 /* added this class to be able to see the content under the footer */
 main {
     margin-bottom: 90px;
@@ -38,7 +39,11 @@ main {
   font-size: 22px;
   font-weight: bold;
   color: black;
-  background-color: rgb(74, 88, 104); 
+  background-color: #343a40; 
+
   opacity: 0.8;
 
+}
+.page-footer{
+  background: #343a40!important;  
 }
