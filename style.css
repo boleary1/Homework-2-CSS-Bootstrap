@@ -7,6 +7,13 @@ main {
 .bio-image{
   height: 350px
 }
+.contact-image{
+  height: 200px;
+  width: 218px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 0px;
+}
 .page-title{
   text-align: center;
   text-decoration: underline;
@@ -40,10 +47,15 @@ main {
   font-weight: bold;
   color: black;
   background-color: #343a40; 
-
   opacity: 0.8;
 
 }
 .page-footer{
   background: #343a40!important;  
+}
+
+.table{
+margin-left: 20px;
+margin-right: 15px;
+
 }
