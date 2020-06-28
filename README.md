@@ -2,6 +2,7 @@
 
 ## Live website URL:
 [live website](https://boleary1.github.io/Homework-2-CSS-Bootstrap/index.html)
+</br>
 [GitHub Repository](https://github.com/boleary1/Homework-2-CSS-Bootstrap)
 
 
