@@ -7,8 +7,27 @@ Responsive design ensures that web applications render well on a variety of devi
 
 ## **Screenshots:**
 ### **Lg. screen:**
-#### Screenshot 1:
-![Screenshot1](https://github.com/boleary1/Homework-2-CSS-Bootstrap/blob/master/Assets/images/about%20me%201.JPG?raw=true)
+#### About Me:
+![Large about me screen shot](https://github.com/boleary1/Homework-2-CSS-Bootstrap/blob/master/Assets/images/about%20me%201.JPG?raw=true)
+#### Contact:
+![Large contact me screen shot](https://github.com/boleary1/Homework-2-CSS-Bootstrap/blob/master/Assets/images/contact%201.JPG?raw=true)
+#### Portfolio:
+![Large Portfolio screen shot](https://github.com/boleary1/Homework-2-CSS-Bootstrap/blob/master/Assets/images/potfolio%20screen%20shot.JPG?raw=true)
+### **Md. screen:**
+#### About Me:
+![Medium about me screen shot](https://github.com/boleary1/Homework-2-CSS-Bootstrap/blob/master/Assets/images/about%20me%202.JPG?raw=true)
+#### Contact:
+![Medium contact me screen shot](https://github.com/boleary1/Homework-2-CSS-Bootstrap/blob/master/Assets/images/contact%202.JPG?raw=true)
+#### Portfolio:
+![Medium Portfolio screen shot](https://github.com/boleary1/Homework-2-CSS-Bootstrap/blob/master/Assets/images/potfolio%20screen%20shot%202.JPG?raw=true)
+### **Sm. screen:**
+#### About Me:
+![Small about me screen shot](https://github.com/boleary1/Homework-2-CSS-Bootstrap/blob/master/Assets/images/about%20me3.JPG?raw=true)
+#### Contact:
+![Small contact me screen shot](https://github.com/boleary1/Homework-2-CSS-Bootstrap/blob/master/Assets/images/contact%203.JPG?raw=true)
+#### Portfolio:
+![Small Portfolio screen shot](https://github.com/boleary1/Homework-2-CSS-Bootstrap/blob/master/Assets/images/potfolio%20screen%20shot%203.JPG?raw=true)
+
 
 
 
