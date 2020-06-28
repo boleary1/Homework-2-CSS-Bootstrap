@@ -8,7 +8,7 @@ Responsive design ensures that web applications render well on a variety of devi
 ## **Screenshots:**
 ### **Lg. screen:**
 #### Screenshot 1:
-![Screenshot1](Assets\images\about me 1.JPG)
+![Screenshot1](Assets\images\about me 1.png)
 
 
 
