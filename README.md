@@ -2,8 +2,14 @@
 
 ## Live website URL:
 [live website](https://boleary1.github.io/Homework-2-CSS-Bootstrap/index.html)
+[GitHub Repository](https://github.com/boleary1/Homework-2-CSS-Bootstrap)
 
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
+
+
+## **Description:**
+Website built in late May 2020.  The contact page is just for show right now.  It will eventually go somewhere.  My nav bar from bootstrap wasn't working so I used one from one of the class examples.  I think my issue was not having the JS tag at the bottom of the page to make the hamburger menu buttom work.  
+
+Last edit was 6/28/2020 by Brian O'leary.  Contact oleary.brian1@gmail.com with any questions.
 
 ## **Screenshots:**
 ### **Lg. screen:**
@@ -32,13 +38,10 @@ Responsive design ensures that web applications render well on a variety of devi
 
 
 ## **Original assignment description below:**
-### **Description:**
-Website built in late May 2020.  The contact page is just for show right now.  It will eventually go somewhere.  
-
-Last edit was 6/28/2020 by Brian O'leary.  Contact oleary.brian1@gmail.com with any questions.
-
 
 ### Directions
+
+Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
 First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
 
