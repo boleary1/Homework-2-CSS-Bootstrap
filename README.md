@@ -1,12 +1,25 @@
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
-## website URL:
-https://boleary1.github.io/Homework-2-CSS-Bootstrap/index.html
+## Live website URL:
+[live website](https://boleary1.github.io/Homework-2-CSS-Bootstrap/index.html)
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
+## **Screenshots:**
+### **Lg. screen:**
+#### Screenshot 1:
+![Screenshot 1](Assets\images\about me 1.JPG)
 
-## Directions
+
+
+## **Original assignment description below:**
+### **Description:**
+Website built in late May 2020.  The contact page is just for show right now.  It will eventually go somewhere.  
+
+Last edit was 6/28/2020 by Brian O'leary.  Contact oleary.brian1@gmail.com with any questions.
+
+
+### Directions
 
 First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
 
@@ -58,7 +71,7 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 * Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
 
 
-## Commit Early and Often
+### Commit Early and Often
 
 One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
 
@@ -79,7 +92,7 @@ Follow these guidelines for committing:
 We would like you to have well over 200 commits by graduation, so commit early and often!
 
 
-## Submission on BCS
+### Submission on BCS
 
 You are required to submit the following:
 
